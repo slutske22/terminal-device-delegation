@@ -1,0 +1,32 @@
+{
+	"name": "tdd",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"test": "mocha \"src/**/*.test.js\" --recursive --require @babel/register --file src/mocha-setup.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/slutske22/terminal-device-delegation.git"
+	},
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/slutske22/terminal-device-delegation/issues"
+	},
+	"homepage": "https://github.com/slutske22/terminal-device-delegation#readme",
+	"devDependencies": {
+		"@babel/core": "^7.12.3",
+		"@babel/preset-env": "^7.12.1",
+		"@babel/register": "^7.12.1",
+		"chai": "^4.2.0",
+		"mocha": "^8.2.1",
+		"regenerator-runtime": "^0.13.7",
+		"supertest": "^6.0.1"
+	},
+	"dependencies": {
+		"express": "^4.17.1",
+		"mongodb": "^3.6.3"
+	}
+}
